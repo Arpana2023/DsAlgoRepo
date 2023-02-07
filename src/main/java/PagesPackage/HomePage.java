@@ -68,7 +68,6 @@ public class HomePage extends TestBase
 		{
     	  
     	   	String text=dropdownMenu.getText();
-    	   //	System.out.println("&&&&&&&&&&&"+text+"&&&&&&&&&&&");
     	   	return(text);
    			/* //String dropdownText = dropdownMenu.getText();
 			 Select select = new Select(dropdownMenu);
