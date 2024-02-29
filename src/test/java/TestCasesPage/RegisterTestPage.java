@@ -1,7 +1,6 @@
 package TestCasesPage;
 
 import org.testng.Assert;
-import org.testng.ITestListener;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
@@ -72,7 +71,6 @@ public class RegisterTestPage extends TestBase
         System.out.println("/////"+registermsg);
 		Assert.assertTrue(registermsg.contains(prop.getProperty("RegisterSuccessMsg")));	
     	//registerPage.clickOnSinOutLink();
-
     }
     @Test(priority=3)
     public void ClickRegisterBtnWithEmptyUserNameFieldTest()

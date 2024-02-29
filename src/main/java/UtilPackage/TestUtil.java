@@ -15,7 +15,7 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-//import org.testng.Assert;
+import org.testng.Assert;
 
 import BasePackage.TestBase;
 import PagesPackage.HomePage;
@@ -150,6 +150,6 @@ public class TestUtil extends TestBase
 	   //boolean actualloginFailMsg1 =homePage.LoginFailMessageInAnyDataStructure();
 	   //System.out.println("*******"+actualloginFailMsg);
       // Assert.assertEquals(actualloginFailMsg,prop.getProperty("expecloginFailMsg"), "LoginFailure message is not displayed");
-	  // Assert.assertTrue(actualloginFailMsg);
+	   Assert.assertTrue(actualloginFailMsg);
    }
 }

@@ -15,7 +15,6 @@ public class AllureReportListener implements ITestListener
 	private static String getTestMethodName(ITestResult iTestResult) {
 		return iTestResult.getMethod().getConstructorOrMethod().getName();
 	}
-
 	// Text attachments for Allure
 	@Attachment(value = "screenshot", type = "image/png")
 	public byte[] saveScreenshotPNG(WebDriver driver) {

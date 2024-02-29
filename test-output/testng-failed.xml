@@ -6,13 +6,6 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="TestCasesPage.RegisterTestPage">
-        <methods>
-          <include name="setup"/>
-          <include name="PasswordLessthan8Characters" invocation-numbers="0"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- TestCasesPage.RegisterTestPage -->
       <class name="TestCasesPage.HomeTestPage">
         <methods>
           <include name="setup"/>
@@ -20,6 +13,13 @@
           <include name="VerifyDropDownMenulinkTest"/>
         </methods>
       </class> <!-- TestCasesPage.HomeTestPage -->
+      <class name="TestCasesPage.RegisterTestPage">
+        <methods>
+          <include name="setup"/>
+          <include name="PasswordLessthan8Characters" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCasesPage.RegisterTestPage -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

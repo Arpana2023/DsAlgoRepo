@@ -45,10 +45,9 @@ public class ExtentReportListener implements IReporter
 		extent.flush();
 		extent.close();
 	}
-
-	private void buildTestNodes(IResultMap tests, LogStatus status) {
+	private void buildTestNodes(IResultMap tests, LogStatus status) 
+	{
 		ExtentTest test;
-
 		if (tests.size() > 0) {
 			for (ITestResult result : tests.getAllResults()) {
 				test = extent.startTest(result.getMethod().getMethodName());
@@ -70,8 +69,8 @@ public class ExtentReportListener implements IReporter
 			}
 		}
 	}
-
-	private Date getTime(long millis) {
+	private Date getTime(long millis)
+	{
 		Calendar calendar = Calendar.getInstance();
 		calendar.setTimeInMillis(millis);
 		return calendar.getTime();

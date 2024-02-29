@@ -1160,3 +1160,238 @@
 [INFO ] 2024-02-28 14:41:29.247 [main] Loggerload - Executing test to validate if user landed on Tryhere Page on StackPage.
 [INFO ] 2024-02-28 14:41:29.973 [main] Loggerload - Executing test to validate if user landed on output console on StackPage.
 [INFO ] 2024-02-28 14:41:31.119 [main] Loggerload - Executing test to validate if user entered wrong code on output console on QueuePage.
+[INFO ] 2024-02-29 09:03:46.893 [main] Loggerload - User is clicking on GetStarted button on DsAlgo portal Page
+[INFO ] 2024-02-29 09:03:52.715 [main] Loggerload - Executing test to validate if user landed on Home Page.
+[INFO ] 2024-02-29 09:04:04.574 [main] Loggerload - Clicking Array element in dropdown
+[INFO ] 2024-02-29 09:04:05.363 [main] Loggerload - Verifying user clicking on DataStructure in dropDownList without signing in
+[INFO ] 2024-02-29 09:04:05.364 [main] Loggerload - Clicking Linked List element in dropdown
+[INFO ] 2024-02-29 09:04:06.181 [main] Loggerload - Verifying user clicking on DataStructure in dropDownList without signing in
+[INFO ] 2024-02-29 09:04:06.182 [main] Loggerload - Clicking Stack element in dropdown
+[INFO ] 2024-02-29 09:04:06.865 [main] Loggerload - Verifying user clicking on DataStructure in dropDownList without signing in
+[INFO ] 2024-02-29 09:04:06.866 [main] Loggerload - Clicking Queue element in dropdown
+[INFO ] 2024-02-29 09:04:07.594 [main] Loggerload - Verifying user clicking on DataStructure in dropDownList without signing in
+[INFO ] 2024-02-29 09:04:07.595 [main] Loggerload - Clicking Tree element in dropdown
+[INFO ] 2024-02-29 09:04:08.354 [main] Loggerload - Verifying user clicking on DataStructure in dropDownList without signing in
+[INFO ] 2024-02-29 09:04:08.356 [main] Loggerload - Clicking Graph element in dropdown
+[INFO ] 2024-02-29 09:04:09.120 [main] Loggerload - Verifying user clicking on DataStructure in dropDownList without signing in
+[INFO ] 2024-02-29 09:04:14.477 [main] Loggerload - Verifying user clicking on Get Started button in DataStructureIntro without signing in
+[INFO ] 2024-02-29 09:04:15.662 [main] Loggerload - Verifying user clicking on Get Started button in Array DataStructure without signing in
+[INFO ] 2024-02-29 09:04:16.185 [main] Loggerload - Verifying user clicking on Get Started button in LinkedList DataStructure without signing in
+[INFO ] 2024-02-29 09:04:16.701 [main] Loggerload - Verifying user clicking on Get Started button in Stack DataStructure without signing in
+[INFO ] 2024-02-29 09:04:17.226 [main] Loggerload - Verifying user clicking on Get Started button in Queue DataStructure without signing in
+[INFO ] 2024-02-29 09:04:17.721 [main] Loggerload - Verifying user clicking on Get Started button in Tree DataStructure without signing in
+[INFO ] 2024-02-29 09:04:18.222 [main] Loggerload - Verifying user clicking on Get Started button in Graph DataStructure without signing in
+[INFO ] 2024-02-29 09:04:24.909 [main] Loggerload - Executing test to validate if user landed on Register Page.
+[INFO ] 2024-02-29 09:04:36.282 [main] Loggerload - Clicking on Register button
+[INFO ] 2024-02-29 09:04:42.497 [main] Loggerload - Clicking on Register button having all fields empty
+[INFO ] 2024-02-29 09:04:48.214 [main] Loggerload - Clicking on Register button having only usename field
+[INFO ] 2024-02-29 09:05:03.294 [main] Loggerload - Executing test to validate if user landed on Signin Page
+[INFO ] 2024-02-29 09:05:09.647 [main] Loggerload - Clicking on Login button
+[INFO ] 2024-02-29 09:05:15.555 [main] Loggerload - Clicking on Signin button having all fields empty
+[INFO ] 2024-02-29 09:05:22.145 [main] Loggerload - Clicking on Login button having only username field
+[INFO ] 2024-02-29 09:05:48.406 [main] Loggerload - User is entering username and password
+[INFO ] 2024-02-29 09:05:50.216 [main] Loggerload - Executing test to validate if user landed on Queue Page.
+[INFO ] 2024-02-29 09:05:50.868 [main] Loggerload - Executing test to validate if user landed on Intoduction Page on QueuePage.
+[INFO ] 2024-02-29 09:05:52.286 [main] Loggerload - Executing test to validate if user landed on Tryhere Page on QueuePage.
+[INFO ] 2024-02-29 09:05:53.574 [main] Loggerload - Executing test to validate if user landed on output console on QueuePage.
+[INFO ] 2024-02-29 09:05:54.219 [main] Loggerload - Executing test to validate if user landed on Intoduction Page on StackPage.
+[INFO ] 2024-02-29 09:05:54.871 [main] Loggerload - Executing test to validate if user landed on Tryhere Page on StackPage.
+[INFO ] 2024-02-29 09:05:55.941 [main] Loggerload - Executing test to validate if user landed on output console on QueuePage.
+[INFO ] 2024-02-29 09:05:57.541 [main] Loggerload - Executing test to validate if user entered wrong code on output console on QueuePage.
+[INFO ] 2024-02-29 09:06:03.323 [main] Loggerload - User is entering username and password
+[INFO ] 2024-02-29 09:06:05.174 [main] Loggerload - Executing test to validate if user landed on Stack Page.
+[INFO ] 2024-02-29 09:06:06.851 [main] Loggerload - Executing test to validate if user landed on Intoduction Page on StackPage.
+[INFO ] 2024-02-29 09:06:08.195 [main] Loggerload - Executing test to validate if user landed on Tryhere Page on StackPage.
+[INFO ] 2024-02-29 09:06:09.231 [main] Loggerload - Executing test to validate if user landed on output console on StackPage.
+[INFO ] 2024-02-29 09:06:09.871 [main] Loggerload - Executing test to validate if user landed on Intoduction Page on StackPage.
+[INFO ] 2024-02-29 09:06:10.488 [main] Loggerload - Executing test to validate if user landed on Tryhere Page on StackPage.
+[INFO ] 2024-02-29 09:06:11.399 [main] Loggerload - Executing test to validate if user landed on output console on StackPage.
+[INFO ] 2024-02-29 09:06:12.586 [main] Loggerload - Executing test to validate if user entered wrong code on output console on QueuePage.
+[INFO ] 2024-02-29 09:14:16.512 [main] Loggerload - User is clicking on GetStarted button on DsAlgo portal Page
+[INFO ] 2024-02-29 09:14:23.020 [main] Loggerload - Executing test to validate if user landed on Register Page.
+[INFO ] 2024-02-29 09:14:29.210 [main] Loggerload - Executing test to validate if user landed on Signin Page
+[INFO ] 2024-02-29 09:14:34.905 [main] Loggerload - Executing test to validate if user landed on Home Page.
+[INFO ] 2024-02-29 09:14:43.690 [main] Loggerload - User is entering username and password
+[INFO ] 2024-02-29 09:14:45.674 [main] Loggerload - Executing test to validate if user landed on Queue Page.
+[INFO ] 2024-02-29 09:14:46.333 [main] Loggerload - Executing test to validate if user landed on Intoduction Page on QueuePage.
+[INFO ] 2024-02-29 09:14:47.743 [main] Loggerload - Executing test to validate if user landed on Tryhere Page on QueuePage.
+[INFO ] 2024-02-29 09:14:49.187 [main] Loggerload - Executing test to validate if user landed on output console on QueuePage.
+[INFO ] 2024-02-29 09:14:50.035 [main] Loggerload - Executing test to validate if user landed on Intoduction Page on StackPage.
+[INFO ] 2024-02-29 09:14:50.667 [main] Loggerload - Executing test to validate if user landed on Tryhere Page on StackPage.
+[INFO ] 2024-02-29 09:14:51.874 [main] Loggerload - Executing test to validate if user landed on output console on QueuePage.
+[INFO ] 2024-02-29 09:14:53.688 [main] Loggerload - Executing test to validate if user entered wrong code on output console on QueuePage.
+[INFO ] 2024-02-29 09:14:59.808 [main] Loggerload - User is entering username and password
+[INFO ] 2024-02-29 09:15:01.742 [main] Loggerload - Executing test to validate if user landed on Stack Page.
+[INFO ] 2024-02-29 09:15:03.318 [main] Loggerload - Executing test to validate if user landed on Intoduction Page on StackPage.
+[INFO ] 2024-02-29 09:15:04.644 [main] Loggerload - Executing test to validate if user landed on Tryhere Page on StackPage.
+[INFO ] 2024-02-29 09:15:05.772 [main] Loggerload - Executing test to validate if user landed on output console on StackPage.
+[INFO ] 2024-02-29 09:15:06.383 [main] Loggerload - Executing test to validate if user landed on Intoduction Page on StackPage.
+[INFO ] 2024-02-29 09:15:06.975 [main] Loggerload - Executing test to validate if user landed on Tryhere Page on StackPage.
+[INFO ] 2024-02-29 09:15:07.937 [main] Loggerload - Executing test to validate if user landed on output console on StackPage.
+[INFO ] 2024-02-29 09:15:09.338 [main] Loggerload - Executing test to validate if user entered wrong code on output console on QueuePage.
+[INFO ] 2024-02-29 09:15:17.088 [main] Loggerload - Clicking on Register button
+[INFO ] 2024-02-29 09:15:24.574 [main] Loggerload - Clicking on Login button
+[INFO ] 2024-02-29 09:15:38.246 [main] Loggerload - Clicking on Register button having all fields empty
+[INFO ] 2024-02-29 09:15:44.468 [main] Loggerload - Clicking on Signin button having all fields empty
+[INFO ] 2024-02-29 09:15:51.124 [main] Loggerload - Clicking Array element in dropdown
+[INFO ] 2024-02-29 09:15:51.971 [main] Loggerload - Verifying user clicking on DataStructure in dropDownList without signing in
+[INFO ] 2024-02-29 09:15:51.972 [main] Loggerload - Clicking Linked List element in dropdown
+[INFO ] 2024-02-29 09:15:52.695 [main] Loggerload - Verifying user clicking on DataStructure in dropDownList without signing in
+[INFO ] 2024-02-29 09:15:52.696 [main] Loggerload - Clicking Stack element in dropdown
+[INFO ] 2024-02-29 09:15:53.416 [main] Loggerload - Verifying user clicking on DataStructure in dropDownList without signing in
+[INFO ] 2024-02-29 09:15:53.424 [main] Loggerload - Clicking Queue element in dropdown
+[INFO ] 2024-02-29 09:15:54.171 [main] Loggerload - Verifying user clicking on DataStructure in dropDownList without signing in
+[INFO ] 2024-02-29 09:15:54.172 [main] Loggerload - Clicking Tree element in dropdown
+[INFO ] 2024-02-29 09:15:54.901 [main] Loggerload - Verifying user clicking on DataStructure in dropDownList without signing in
+[INFO ] 2024-02-29 09:15:54.901 [main] Loggerload - Clicking Graph element in dropdown
+[INFO ] 2024-02-29 09:15:55.564 [main] Loggerload - Verifying user clicking on DataStructure in dropDownList without signing in
+[INFO ] 2024-02-29 09:16:01.144 [main] Loggerload - Clicking on Register button having only usename field
+[INFO ] 2024-02-29 09:16:07.623 [main] Loggerload - Clicking on Login button having only username field
+[INFO ] 2024-02-29 09:16:13.383 [main] Loggerload - Verifying user clicking on Get Started button in DataStructureIntro without signing in
+[INFO ] 2024-02-29 09:16:14.136 [main] Loggerload - Verifying user clicking on Get Started button in Array DataStructure without signing in
+[INFO ] 2024-02-29 09:16:14.604 [main] Loggerload - Verifying user clicking on Get Started button in LinkedList DataStructure without signing in
+[INFO ] 2024-02-29 09:16:15.087 [main] Loggerload - Verifying user clicking on Get Started button in Stack DataStructure without signing in
+[INFO ] 2024-02-29 09:16:15.607 [main] Loggerload - Verifying user clicking on Get Started button in Queue DataStructure without signing in
+[INFO ] 2024-02-29 09:16:16.076 [main] Loggerload - Verifying user clicking on Get Started button in Tree DataStructure without signing in
+[INFO ] 2024-02-29 09:16:16.550 [main] Loggerload - Verifying user clicking on Get Started button in Graph DataStructure without signing in
+[INFO ] 2024-02-29 09:18:23.926 [main] Loggerload - User is clicking on GetStarted button on DsAlgo portal Page
+[INFO ] 2024-02-29 09:18:29.419 [main] Loggerload - Executing test to validate if user landed on Home Page.
+[INFO ] 2024-02-29 09:18:40.547 [main] Loggerload - Clicking Array element in dropdown
+[INFO ] 2024-02-29 09:18:41.318 [main] Loggerload - Verifying user clicking on DataStructure in dropDownList without signing in
+[INFO ] 2024-02-29 09:18:41.318 [main] Loggerload - Clicking Linked List element in dropdown
+[INFO ] 2024-02-29 09:18:42.224 [main] Loggerload - Verifying user clicking on DataStructure in dropDownList without signing in
+[INFO ] 2024-02-29 09:18:42.225 [main] Loggerload - Clicking Stack element in dropdown
+[INFO ] 2024-02-29 09:18:43.005 [main] Loggerload - Verifying user clicking on DataStructure in dropDownList without signing in
+[INFO ] 2024-02-29 09:18:43.006 [main] Loggerload - Clicking Queue element in dropdown
+[INFO ] 2024-02-29 09:18:43.685 [main] Loggerload - Verifying user clicking on DataStructure in dropDownList without signing in
+[INFO ] 2024-02-29 09:18:43.685 [main] Loggerload - Clicking Tree element in dropdown
+[INFO ] 2024-02-29 09:18:44.350 [main] Loggerload - Verifying user clicking on DataStructure in dropDownList without signing in
+[INFO ] 2024-02-29 09:18:44.353 [main] Loggerload - Clicking Graph element in dropdown
+[INFO ] 2024-02-29 09:18:45.023 [main] Loggerload - Verifying user clicking on DataStructure in dropDownList without signing in
+[INFO ] 2024-02-29 09:18:50.558 [main] Loggerload - Verifying user clicking on Get Started button in DataStructureIntro without signing in
+[INFO ] 2024-02-29 09:18:51.139 [main] Loggerload - Verifying user clicking on Get Started button in Array DataStructure without signing in
+[INFO ] 2024-02-29 09:18:51.629 [main] Loggerload - Verifying user clicking on Get Started button in LinkedList DataStructure without signing in
+[INFO ] 2024-02-29 09:18:52.120 [main] Loggerload - Verifying user clicking on Get Started button in Stack DataStructure without signing in
+[INFO ] 2024-02-29 09:18:52.622 [main] Loggerload - Verifying user clicking on Get Started button in Queue DataStructure without signing in
+[INFO ] 2024-02-29 09:18:53.085 [main] Loggerload - Verifying user clicking on Get Started button in Tree DataStructure without signing in
+[INFO ] 2024-02-29 09:18:54.097 [main] Loggerload - Verifying user clicking on Get Started button in Graph DataStructure without signing in
+[INFO ] 2024-02-29 09:19:00.469 [main] Loggerload - Executing test to validate if user landed on Register Page.
+[INFO ] 2024-02-29 09:19:09.658 [main] Loggerload - Clicking on Register button
+[INFO ] 2024-02-29 09:19:15.838 [main] Loggerload - Clicking on Register button having all fields empty
+[INFO ] 2024-02-29 09:19:21.571 [main] Loggerload - Clicking on Register button having only usename field
+[INFO ] 2024-02-29 09:19:35.019 [main] Loggerload - Executing test to validate if user landed on Signin Page
+[INFO ] 2024-02-29 09:19:41.097 [main] Loggerload - Clicking on Login button
+[INFO ] 2024-02-29 09:19:47.138 [main] Loggerload - Clicking on Signin button having all fields empty
+[INFO ] 2024-02-29 09:19:53.160 [main] Loggerload - Clicking on Login button having only username field
+[INFO ] 2024-02-29 09:20:18.434 [main] Loggerload - User is entering username and password
+[INFO ] 2024-02-29 09:20:20.421 [main] Loggerload - Executing test to validate if user landed on Queue Page.
+[INFO ] 2024-02-29 09:20:21.243 [main] Loggerload - Executing test to validate if user landed on Intoduction Page on QueuePage.
+[INFO ] 2024-02-29 09:20:23.406 [main] Loggerload - Executing test to validate if user landed on Tryhere Page on QueuePage.
+[INFO ] 2024-02-29 09:20:24.546 [main] Loggerload - Executing test to validate if user landed on output console on QueuePage.
+[INFO ] 2024-02-29 09:20:25.260 [main] Loggerload - Executing test to validate if user landed on Intoduction Page on StackPage.
+[INFO ] 2024-02-29 09:20:25.823 [main] Loggerload - Executing test to validate if user landed on Tryhere Page on StackPage.
+[INFO ] 2024-02-29 09:20:26.784 [main] Loggerload - Executing test to validate if user landed on output console on QueuePage.
+[INFO ] 2024-02-29 09:20:28.196 [main] Loggerload - Executing test to validate if user entered wrong code on output console on QueuePage.
+[INFO ] 2024-02-29 09:20:33.661 [main] Loggerload - User is entering username and password
+[INFO ] 2024-02-29 09:20:35.406 [main] Loggerload - Executing test to validate if user landed on Stack Page.
+[INFO ] 2024-02-29 09:20:36.121 [main] Loggerload - Executing test to validate if user landed on Intoduction Page on StackPage.
+[INFO ] 2024-02-29 09:20:37.446 [main] Loggerload - Executing test to validate if user landed on Tryhere Page on StackPage.
+[INFO ] 2024-02-29 09:20:38.354 [main] Loggerload - Executing test to validate if user landed on output console on StackPage.
+[INFO ] 2024-02-29 09:20:38.941 [main] Loggerload - Executing test to validate if user landed on Intoduction Page on StackPage.
+[INFO ] 2024-02-29 09:20:39.587 [main] Loggerload - Executing test to validate if user landed on Tryhere Page on StackPage.
+[INFO ] 2024-02-29 09:20:40.561 [main] Loggerload - Executing test to validate if user landed on output console on StackPage.
+[INFO ] 2024-02-29 09:20:41.851 [main] Loggerload - Executing test to validate if user entered wrong code on output console on QueuePage.
+[INFO ] 2024-02-29 09:30:22.237 [main] Loggerload - User is clicking on GetStarted button on DsAlgo portal Page
+[INFO ] 2024-02-29 09:30:29.193 [main] Loggerload - Executing test to validate if user landed on Register Page.
+[INFO ] 2024-02-29 09:30:34.666 [main] Loggerload - Executing test to validate if user landed on Signin Page
+[INFO ] 2024-02-29 09:30:39.502 [main] Loggerload - Executing test to validate if user landed on Home Page.
+[INFO ] 2024-02-29 09:30:48.512 [main] Loggerload - User is entering username and password
+[INFO ] 2024-02-29 09:30:50.596 [main] Loggerload - Executing test to validate if user landed on Queue Page.
+[INFO ] 2024-02-29 09:30:51.202 [main] Loggerload - Executing test to validate if user landed on Intoduction Page on QueuePage.
+[INFO ] 2024-02-29 09:30:52.559 [main] Loggerload - Executing test to validate if user landed on Tryhere Page on QueuePage.
+[INFO ] 2024-02-29 09:30:53.989 [main] Loggerload - Executing test to validate if user landed on output console on QueuePage.
+[INFO ] 2024-02-29 09:30:54.694 [main] Loggerload - Executing test to validate if user landed on Intoduction Page on StackPage.
+[INFO ] 2024-02-29 09:30:55.259 [main] Loggerload - Executing test to validate if user landed on Tryhere Page on StackPage.
+[INFO ] 2024-02-29 09:30:56.271 [main] Loggerload - Executing test to validate if user landed on output console on QueuePage.
+[INFO ] 2024-02-29 09:30:57.610 [main] Loggerload - Executing test to validate if user entered wrong code on output console on QueuePage.
+[INFO ] 2024-02-29 09:31:03.181 [main] Loggerload - User is entering username and password
+[INFO ] 2024-02-29 09:31:05.216 [main] Loggerload - Executing test to validate if user landed on Stack Page.
+[INFO ] 2024-02-29 09:31:05.957 [main] Loggerload - Executing test to validate if user landed on Intoduction Page on StackPage.
+[INFO ] 2024-02-29 09:31:07.199 [main] Loggerload - Executing test to validate if user landed on Tryhere Page on StackPage.
+[INFO ] 2024-02-29 09:31:08.281 [main] Loggerload - Executing test to validate if user landed on output console on StackPage.
+[INFO ] 2024-02-29 09:31:08.925 [main] Loggerload - Executing test to validate if user landed on Intoduction Page on StackPage.
+[INFO ] 2024-02-29 09:31:09.529 [main] Loggerload - Executing test to validate if user landed on Tryhere Page on StackPage.
+[INFO ] 2024-02-29 09:31:10.350 [main] Loggerload - Executing test to validate if user landed on output console on StackPage.
+[INFO ] 2024-02-29 09:31:11.542 [main] Loggerload - Executing test to validate if user entered wrong code on output console on QueuePage.
+[INFO ] 2024-02-29 09:31:17.871 [main] Loggerload - Clicking on Register button
+[INFO ] 2024-02-29 09:31:24.393 [main] Loggerload - Clicking on Login button
+[INFO ] 2024-02-29 09:31:37.453 [main] Loggerload - Clicking on Register button having all fields empty
+[INFO ] 2024-02-29 09:31:43.434 [main] Loggerload - Clicking on Signin button having all fields empty
+[INFO ] 2024-02-29 09:31:48.900 [main] Loggerload - Clicking Array element in dropdown
+[INFO ] 2024-02-29 09:31:49.673 [main] Loggerload - Verifying user clicking on DataStructure in dropDownList without signing in
+[INFO ] 2024-02-29 09:31:49.674 [main] Loggerload - Clicking Linked List element in dropdown
+[INFO ] 2024-02-29 09:31:50.332 [main] Loggerload - Verifying user clicking on DataStructure in dropDownList without signing in
+[INFO ] 2024-02-29 09:31:50.332 [main] Loggerload - Clicking Stack element in dropdown
+[INFO ] 2024-02-29 09:31:51.024 [main] Loggerload - Verifying user clicking on DataStructure in dropDownList without signing in
+[INFO ] 2024-02-29 09:31:51.026 [main] Loggerload - Clicking Queue element in dropdown
+[INFO ] 2024-02-29 09:31:51.712 [main] Loggerload - Verifying user clicking on DataStructure in dropDownList without signing in
+[INFO ] 2024-02-29 09:31:51.713 [main] Loggerload - Clicking Tree element in dropdown
+[INFO ] 2024-02-29 09:31:52.400 [main] Loggerload - Verifying user clicking on DataStructure in dropDownList without signing in
+[INFO ] 2024-02-29 09:31:52.401 [main] Loggerload - Clicking Graph element in dropdown
+[INFO ] 2024-02-29 09:31:53.113 [main] Loggerload - Verifying user clicking on DataStructure in dropDownList without signing in
+[INFO ] 2024-02-29 09:31:58.341 [main] Loggerload - Clicking on Register button having only usename field
+[INFO ] 2024-02-29 09:32:04.258 [main] Loggerload - Clicking on Login button having only username field
+[INFO ] 2024-02-29 09:32:10.284 [main] Loggerload - Verifying user clicking on Get Started button in DataStructureIntro without signing in
+[INFO ] 2024-02-29 09:32:10.857 [main] Loggerload - Verifying user clicking on Get Started button in Array DataStructure without signing in
+[INFO ] 2024-02-29 09:32:11.305 [main] Loggerload - Verifying user clicking on Get Started button in LinkedList DataStructure without signing in
+[INFO ] 2024-02-29 09:32:11.779 [main] Loggerload - Verifying user clicking on Get Started button in Stack DataStructure without signing in
+[INFO ] 2024-02-29 09:32:12.305 [main] Loggerload - Verifying user clicking on Get Started button in Queue DataStructure without signing in
+[INFO ] 2024-02-29 09:32:12.757 [main] Loggerload - Verifying user clicking on Get Started button in Tree DataStructure without signing in
+[INFO ] 2024-02-29 09:32:13.651 [main] Loggerload - Verifying user clicking on Get Started button in Graph DataStructure without signing in
+[INFO ] 2024-02-29 09:43:21.859 [main] Loggerload - User is clicking on GetStarted button on DsAlgo portal Page
+[INFO ] 2024-02-29 09:43:27.524 [main] Loggerload - Executing test to validate if user landed on Home Page.
+[INFO ] 2024-02-29 09:43:38.998 [main] Loggerload - Clicking Array element in dropdown
+[INFO ] 2024-02-29 09:43:40.409 [main] Loggerload - Verifying user clicking on DataStructure in dropDownList without signing in
+[INFO ] 2024-02-29 09:43:40.410 [main] Loggerload - Clicking Linked List element in dropdown
+[INFO ] 2024-02-29 09:43:41.159 [main] Loggerload - Verifying user clicking on DataStructure in dropDownList without signing in
+[INFO ] 2024-02-29 09:43:41.160 [main] Loggerload - Clicking Stack element in dropdown
+[INFO ] 2024-02-29 09:43:41.897 [main] Loggerload - Verifying user clicking on DataStructure in dropDownList without signing in
+[INFO ] 2024-02-29 09:43:41.897 [main] Loggerload - Clicking Queue element in dropdown
+[INFO ] 2024-02-29 09:43:42.628 [main] Loggerload - Verifying user clicking on DataStructure in dropDownList without signing in
+[INFO ] 2024-02-29 09:43:42.629 [main] Loggerload - Clicking Tree element in dropdown
+[INFO ] 2024-02-29 09:43:43.369 [main] Loggerload - Verifying user clicking on DataStructure in dropDownList without signing in
+[INFO ] 2024-02-29 09:43:43.369 [main] Loggerload - Clicking Graph element in dropdown
+[INFO ] 2024-02-29 09:43:44.101 [main] Loggerload - Verifying user clicking on DataStructure in dropDownList without signing in
+[INFO ] 2024-02-29 09:43:50.268 [main] Loggerload - Verifying user clicking on Get Started button in DataStructureIntro without signing in
+[INFO ] 2024-02-29 09:43:50.840 [main] Loggerload - Verifying user clicking on Get Started button in Array DataStructure without signing in
+[INFO ] 2024-02-29 09:43:51.295 [main] Loggerload - Verifying user clicking on Get Started button in LinkedList DataStructure without signing in
+[INFO ] 2024-02-29 09:43:51.772 [main] Loggerload - Verifying user clicking on Get Started button in Stack DataStructure without signing in
+[INFO ] 2024-02-29 09:43:52.256 [main] Loggerload - Verifying user clicking on Get Started button in Queue DataStructure without signing in
+[INFO ] 2024-02-29 09:43:52.753 [main] Loggerload - Verifying user clicking on Get Started button in Tree DataStructure without signing in
+[INFO ] 2024-02-29 09:43:53.266 [main] Loggerload - Verifying user clicking on Get Started button in Graph DataStructure without signing in
+[INFO ] 2024-02-29 09:43:59.670 [main] Loggerload - Executing test to validate if user landed on Register Page.
+[INFO ] 2024-02-29 09:44:09.516 [main] Loggerload - Clicking on Register button
+[INFO ] 2024-02-29 09:44:15.524 [main] Loggerload - Clicking on Register button having all fields empty
+[INFO ] 2024-02-29 09:44:21.145 [main] Loggerload - Clicking on Register button having only usename field
+[INFO ] 2024-02-29 09:44:34.243 [main] Loggerload - Executing test to validate if user landed on Signin Page
+[INFO ] 2024-02-29 09:44:40.298 [main] Loggerload - Clicking on Login button
+[INFO ] 2024-02-29 09:44:46.414 [main] Loggerload - Clicking on Signin button having all fields empty
+[INFO ] 2024-02-29 09:44:53.390 [main] Loggerload - Clicking on Login button having only username field
+[INFO ] 2024-02-29 09:45:18.876 [main] Loggerload - User is entering username and password
+[INFO ] 2024-02-29 09:45:21.523 [main] Loggerload - Executing test to validate if user landed on Queue Page.
+[INFO ] 2024-02-29 09:45:22.413 [main] Loggerload - Executing test to validate if user landed on Intoduction Page on QueuePage.
+[INFO ] 2024-02-29 09:45:24.534 [main] Loggerload - Executing test to validate if user landed on Tryhere Page on QueuePage.
+[INFO ] 2024-02-29 09:45:25.797 [main] Loggerload - Executing test to validate if user landed on output console on QueuePage.
+[INFO ] 2024-02-29 09:45:26.455 [main] Loggerload - Executing test to validate if user landed on Intoduction Page on StackPage.
+[INFO ] 2024-02-29 09:45:27.028 [main] Loggerload - Executing test to validate if user landed on Tryhere Page on StackPage.
+[INFO ] 2024-02-29 09:45:27.846 [main] Loggerload - Executing test to validate if user landed on output console on QueuePage.
+[INFO ] 2024-02-29 09:45:29.088 [main] Loggerload - Executing test to validate if user entered wrong code on output console on QueuePage.
+[INFO ] 2024-02-29 09:45:34.449 [main] Loggerload - User is entering username and password
+[INFO ] 2024-02-29 09:45:36.174 [main] Loggerload - Executing test to validate if user landed on Stack Page.
+[INFO ] 2024-02-29 09:45:37.102 [main] Loggerload - Executing test to validate if user landed on Intoduction Page on StackPage.
+[INFO ] 2024-02-29 09:45:38.287 [main] Loggerload - Executing test to validate if user landed on Tryhere Page on StackPage.
+[INFO ] 2024-02-29 09:45:39.365 [main] Loggerload - Executing test to validate if user landed on output console on StackPage.
+[INFO ] 2024-02-29 09:45:39.961 [main] Loggerload - Executing test to validate if user landed on Intoduction Page on StackPage.
+[INFO ] 2024-02-29 09:45:40.481 [main] Loggerload - Executing test to validate if user landed on Tryhere Page on StackPage.
+[INFO ] 2024-02-29 09:45:41.278 [main] Loggerload - Executing test to validate if user landed on output console on StackPage.
+[INFO ] 2024-02-29 09:45:42.586 [main] Loggerload - Executing test to validate if user entered wrong code on output console on QueuePage.
