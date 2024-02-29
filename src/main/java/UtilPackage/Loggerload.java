@@ -7,9 +7,9 @@ import org.apache.logging.log4j.Logger;
 
 public class Loggerload {
 	private static Logger logger = LogManager.getLogger();
-    
+
   	 public static void info(String message) {
-		 logger.info(message); 			
+		 logger.info(message);
 		 }
 	 public static void warn(String message) {
 		 logger.warn(message);

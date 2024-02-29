@@ -1,25 +1,464 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="19" passed="17" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-03T10:27:18 PST" name="Default suite" finished-at="2023-02-03T10:27:42 PST" duration-ms="23402">
+  <suite started-at="2024-02-28T14:39:09 PST" name="Suite" finished-at="2024-02-28T14:41:31 PST" duration-ms="142307">
     <groups>
     </groups>
-    <test started-at="2023-02-03T10:27:18 PST" name="Default test" finished-at="2023-02-03T10:27:42 PST" duration-ms="23402">
-      <class name="TestCasesPage.HomeTestPage">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestCasesPage.HomeTestPage@1a482e36]" started-at="2023-02-03T10:27:19 PST" name="setup" finished-at="2023-02-03T10:27:41 PST" duration-ms="22045" status="PASS">
+    <test started-at="2024-02-28T14:39:09 PST" name="Test" finished-at="2024-02-28T14:41:31 PST" duration-ms="142307">
+      <class name="TestCasesPage.StackTestPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCasesPage.StackTestPage@2c8662ac]" started-at="2024-02-28T14:41:19 PST" name="setup" finished-at="2024-02-28T14:41:23 PST" duration-ms="4210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyDropDownMenulinkTest()[pri:0, instance:TestCasesPage.HomeTestPage@1a482e36]" started-at="2023-02-03T10:27:41 PST" name="VerifyDropDownMenulinkTest" finished-at="2023-02-03T10:27:41 PST" duration-ms="430" status="PASS">
+        <test-method signature="VerifyUserLandedStackPage(java.lang.String,java.lang.String)[pri:1, instance:TestCasesPage.StackTestPage@2c8662ac]" started-at="2024-02-28T14:41:23 PST" name="VerifyUserLandedStackPage" description="Stack page verification" data-provider="getLoginData" finished-at="2024-02-28T14:41:31 PST" duration-ms="7445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dsalgo81]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Project321@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserLandedStackPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCasesPage.StackTestPage@2c8662ac]" started-at="2024-02-28T14:41:31 PST" name="tearDown" finished-at="2024-02-28T14:41:31 PST" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCasesPage.StackTestPage -->
+      <class name="TestCasesPage.QueueTestPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCasesPage.QueueTestPage@13da7ab0]" started-at="2024-02-28T14:41:07 PST" name="setup" finished-at="2024-02-28T14:41:11 PST" duration-ms="4123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyUserLandedPage(java.lang.String,java.lang.String)[pri:1, instance:TestCasesPage.QueueTestPage@13da7ab0]" started-at="2024-02-28T14:41:11 PST" name="VerifyUserLandedPage" description="Queue page verification" data-provider="getLoginData" finished-at="2024-02-28T14:41:19 PST" duration-ms="7966" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dsalgo81]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Project321@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserLandedPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCasesPage.QueueTestPage@13da7ab0]" started-at="2024-02-28T14:41:19 PST" name="teardown" finished-at="2024-02-28T14:41:19 PST" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCasesPage.QueueTestPage -->
+      <class name="TestCasesPage.HomeTestPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCasesPage.HomeTestPage@10cd6753]" started-at="2024-02-28T14:39:29 PST" name="setup" finished-at="2024-02-28T14:39:34 PST" duration-ms="4547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyUserLandedHomePageTest()[pri:1, instance:TestCasesPage.HomeTestPage@10cd6753]" started-at="2024-02-28T14:39:34 PST" name="VerifyUserLandedHomePageTest" finished-at="2024-02-28T14:39:34 PST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserLandedHomePageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCasesPage.HomeTestPage@10cd6753]" started-at="2024-02-28T14:39:34 PST" name="tearDown" finished-at="2024-02-28T14:39:34 PST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCasesPage.HomeTestPage@10cd6753]" started-at="2024-02-28T14:39:34 PST" name="setup" finished-at="2024-02-28T14:39:38 PST" duration-ms="4204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyDropDownMenulinkTest()[pri:2, instance:TestCasesPage.HomeTestPage@10cd6753]" started-at="2024-02-28T14:39:38 PST" name="VerifyDropDownMenulinkTest" finished-at="2024-02-28T14:39:39 PST" duration-ms="248" status="FAIL">
+          <exception class="org.openqa.selenium.support.ui.UnexpectedTagNameException">
+            <message>
+              <![CDATA[Element should have been "select" but was "a"
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.7.7', java.version: '17.0.7'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "a"
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.7.7', java.version: '17.0.7'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.<init>(Select.java:46)
+at PagesPackage.HomePage.DropdownOptions(HomePage.java:104)
+at TestCasesPage.HomeTestPage.VerifyDropDownMenulinkTest(HomeTestPage.java:56)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.support.ui.UnexpectedTagNameException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyDropDownMenulinkTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCasesPage.HomeTestPage@1a482e36]" started-at="2023-02-03T10:27:41 PST" name="tearDown" finished-at="2023-02-03T10:27:42 PST" duration-ms="768" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCasesPage.HomeTestPage@10cd6753]" started-at="2024-02-28T14:39:39 PST" name="tearDown" finished-at="2024-02-28T14:39:39 PST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCasesPage.HomeTestPage@10cd6753]" started-at="2024-02-28T14:39:39 PST" name="setup" finished-at="2024-02-28T14:39:44 PST" duration-ms="4409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyClickOnDropDownElementAndLoginFailMsg()[pri:3, instance:TestCasesPage.HomeTestPage@10cd6753]" started-at="2024-02-28T14:39:44 PST" name="VerifyClickOnDropDownElementAndLoginFailMsg" finished-at="2024-02-28T14:39:48 PST" duration-ms="4357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyClickOnDropDownElementAndLoginFailMsg -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCasesPage.HomeTestPage@10cd6753]" started-at="2024-02-28T14:39:48 PST" name="tearDown" finished-at="2024-02-28T14:39:48 PST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCasesPage.HomeTestPage@10cd6753]" started-at="2024-02-28T14:39:48 PST" name="setup" finished-at="2024-02-28T14:39:52 PST" duration-ms="4158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyClickingGetstrdInAnyDataStrAndLoginFailMsg()[pri:4, instance:TestCasesPage.HomeTestPage@10cd6753]" started-at="2024-02-28T14:39:52 PST" name="VerifyClickingGetstrdInAnyDataStrAndLoginFailMsg" finished-at="2024-02-28T14:39:56 PST" duration-ms="3577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyClickingGetstrdInAnyDataStrAndLoginFailMsg -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCasesPage.HomeTestPage@10cd6753]" started-at="2024-02-28T14:39:56 PST" name="tearDown" finished-at="2024-02-28T14:39:56 PST" duration-ms="256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- TestCasesPage.HomeTestPage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="TestCasesPage.RegisterTestPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCasesPage.RegisterTestPage@700f518a]" started-at="2024-02-28T14:39:56 PST" name="setup" finished-at="2024-02-28T14:40:02 PST" duration-ms="5406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyUserLandedRegisterPageTest1()[pri:1, instance:TestCasesPage.RegisterTestPage@700f518a]" started-at="2024-02-28T14:40:02 PST" name="VerifyUserLandedRegisterPageTest1" finished-at="2024-02-28T14:40:02 PST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserLandedRegisterPageTest1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCasesPage.RegisterTestPage@700f518a]" started-at="2024-02-28T14:40:02 PST" name="tearDown" finished-at="2024-02-28T14:40:02 PST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCasesPage.RegisterTestPage@700f518a]" started-at="2024-02-28T14:40:04 PST" name="setup" finished-at="2024-02-28T14:40:09 PST" duration-ms="4843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateUserNameErrors(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:TestCasesPage.RegisterTestPage@700f518a]" started-at="2024-02-28T14:40:09 PST" name="validateUserNameErrors" data-provider="getLoginData" finished-at="2024-02-28T14:40:10 PST" duration-ms="1513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dsalgo81]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Project321@]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Project321@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserNameErrors -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCasesPage.RegisterTestPage@700f518a]" started-at="2024-02-28T14:40:10 PST" name="tearDown" finished-at="2024-02-28T14:40:11 PST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCasesPage.RegisterTestPage@700f518a]" started-at="2024-02-28T14:40:11 PST" name="setup" finished-at="2024-02-28T14:40:15 PST" duration-ms="4332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ClickRegisterBtnWithEmptyUserNameFieldTest()[pri:3, instance:TestCasesPage.RegisterTestPage@700f518a]" started-at="2024-02-28T14:40:15 PST" name="ClickRegisterBtnWithEmptyUserNameFieldTest" finished-at="2024-02-28T14:40:15 PST" duration-ms="397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickRegisterBtnWithEmptyUserNameFieldTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCasesPage.RegisterTestPage@700f518a]" started-at="2024-02-28T14:40:15 PST" name="tearDown" finished-at="2024-02-28T14:40:16 PST" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCasesPage.RegisterTestPage@700f518a]" started-at="2024-02-28T14:40:16 PST" name="setup" finished-at="2024-02-28T14:40:20 PST" duration-ms="4454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ClickRegisterBtnWithEmptyPassWordFieldTest(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:TestCasesPage.RegisterTestPage@700f518a]" started-at="2024-02-28T14:40:20 PST" name="ClickRegisterBtnWithEmptyPassWordFieldTest" data-provider="getLoginData" finished-at="2024-02-28T14:40:21 PST" duration-ms="676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dsalgo81]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Project321@]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Project321@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickRegisterBtnWithEmptyPassWordFieldTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCasesPage.RegisterTestPage@700f518a]" started-at="2024-02-28T14:40:21 PST" name="tearDown" finished-at="2024-02-28T14:40:21 PST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCasesPage.RegisterTestPage@700f518a]" started-at="2024-02-28T14:40:21 PST" name="setup" finished-at="2024-02-28T14:40:26 PST" duration-ms="4754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="PasswordLessthan8Characters(java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:TestCasesPage.RegisterTestPage@700f518a]" started-at="2024-02-28T14:40:26 PST" name="PasswordLessthan8Characters" data-provider="getLoginData" finished-at="2024-02-28T14:40:27 PST" duration-ms="1348" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dsalgo81]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Project321@]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Project321@]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [password_mismatch:The two password fields didn't match.] but found [password_mismatch:The two password fields didn’t match.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [password_mismatch:The two password fields didn't match.] but found [password_mismatch:The two password fields didn’t match.]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at TestCasesPage.RegisterTestPage.PasswordLessthan8Characters(RegisterTestPage.java:107)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PasswordLessthan8Characters -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCasesPage.RegisterTestPage@700f518a]" started-at="2024-02-28T14:40:28 PST" name="tearDown" finished-at="2024-02-28T14:40:28 PST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCasesPage.RegisterTestPage -->
+      <class name="TestCasesPage.SignInTestPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCasesPage.SignInTestPage@b835727]" started-at="2024-02-28T14:40:28 PST" name="setup" finished-at="2024-02-28T14:40:32 PST" duration-ms="4499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyUserLandedLoginPageTest()[pri:1, instance:TestCasesPage.SignInTestPage@b835727]" started-at="2024-02-28T14:40:32 PST" name="VerifyUserLandedLoginPageTest" finished-at="2024-02-28T14:40:32 PST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserLandedLoginPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCasesPage.SignInTestPage@b835727]" started-at="2024-02-28T14:40:32 PST" name="tearDown" finished-at="2024-02-28T14:40:33 PST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCasesPage.SignInTestPage@b835727]" started-at="2024-02-28T14:40:33 PST" name="setup" finished-at="2024-02-28T14:40:37 PST" duration-ms="4549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyingValidUsrnameAndPwd(java.lang.String,java.lang.String)[pri:2, instance:TestCasesPage.SignInTestPage@b835727]" started-at="2024-02-28T14:40:37 PST" name="verifyingValidUsrnameAndPwd" data-provider="getLoginData" finished-at="2024-02-28T14:40:39 PST" duration-ms="1263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dsalgo81]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Project321@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingValidUsrnameAndPwd -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCasesPage.SignInTestPage@b835727]" started-at="2024-02-28T14:40:39 PST" name="tearDown" finished-at="2024-02-28T14:40:39 PST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCasesPage.SignInTestPage@b835727]" started-at="2024-02-28T14:40:39 PST" name="setup" finished-at="2024-02-28T14:40:43 PST" duration-ms="4474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ClickSignInBtbWithUserNameFieldEmpty()[pri:3, instance:TestCasesPage.SignInTestPage@b835727]" started-at="2024-02-28T14:40:43 PST" name="ClickSignInBtbWithUserNameFieldEmpty" finished-at="2024-02-28T14:40:44 PST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickSignInBtbWithUserNameFieldEmpty -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCasesPage.SignInTestPage@b835727]" started-at="2024-02-28T14:40:44 PST" name="tearDown" finished-at="2024-02-28T14:40:44 PST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCasesPage.SignInTestPage@b835727]" started-at="2024-02-28T14:40:44 PST" name="setup" finished-at="2024-02-28T14:40:48 PST" duration-ms="4327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ClickSignInBtnWithPasswordFieldEmpty(java.lang.String,java.lang.String)[pri:4, instance:TestCasesPage.SignInTestPage@b835727]" started-at="2024-02-28T14:40:48 PST" name="ClickSignInBtnWithPasswordFieldEmpty" data-provider="getLoginData" finished-at="2024-02-28T14:40:49 PST" duration-ms="589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dsalgo81]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Project321@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickSignInBtnWithPasswordFieldEmpty -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCasesPage.SignInTestPage@b835727]" started-at="2024-02-28T14:40:49 PST" name="tearDown" finished-at="2024-02-28T14:40:49 PST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCasesPage.SignInTestPage@b835727]" started-at="2024-02-28T14:40:49 PST" name="setup" finished-at="2024-02-28T14:40:53 PST" duration-ms="4373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestingInvalidUsrnameInvalidPwd()[pri:5, instance:TestCasesPage.SignInTestPage@b835727]" started-at="2024-02-28T14:40:53 PST" name="TestingInvalidUsrnameInvalidPwd" finished-at="2024-02-28T14:40:55 PST" duration-ms="1033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestingInvalidUsrnameInvalidPwd -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCasesPage.SignInTestPage@b835727]" started-at="2024-02-28T14:40:55 PST" name="tearDown" finished-at="2024-02-28T14:40:55 PST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCasesPage.SignInTestPage@b835727]" started-at="2024-02-28T14:40:55 PST" name="setup" finished-at="2024-02-28T14:40:59 PST" duration-ms="4546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestingInvalidUsrnameValidPwd(java.lang.String,java.lang.String)[pri:6, instance:TestCasesPage.SignInTestPage@b835727]" started-at="2024-02-28T14:40:59 PST" name="TestingInvalidUsrnameValidPwd" data-provider="getLoginData" finished-at="2024-02-28T14:41:00 PST" duration-ms="1108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dsalgo81]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Project321@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestingInvalidUsrnameValidPwd -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCasesPage.SignInTestPage@b835727]" started-at="2024-02-28T14:41:00 PST" name="tearDown" finished-at="2024-02-28T14:41:01 PST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCasesPage.SignInTestPage@b835727]" started-at="2024-02-28T14:41:01 PST" name="setup" finished-at="2024-02-28T14:41:05 PST" duration-ms="4436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestingValidUsrnameInValidPwd(java.lang.String,java.lang.String)[pri:7, instance:TestCasesPage.SignInTestPage@b835727]" started-at="2024-02-28T14:41:05 PST" name="TestingValidUsrnameInValidPwd" data-provider="getLoginData" finished-at="2024-02-28T14:41:06 PST" duration-ms="998" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dsalgo81]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Project321@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestingValidUsrnameInValidPwd -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCasesPage.SignInTestPage@b835727]" started-at="2024-02-28T14:41:06 PST" name="tearDown" finished-at="2024-02-28T14:41:06 PST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCasesPage.SignInTestPage -->
+      <class name="TestCasesPage.GetStartedTestPage">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCasesPage.GetStartedTestPage@12968227]" started-at="2024-02-28T14:39:09 PST" name="setUp" finished-at="2024-02-28T14:39:27 PST" duration-ms="18134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateUserLandingHomePageTest()[pri:0, instance:TestCasesPage.GetStartedTestPage@12968227]" started-at="2024-02-28T14:39:27 PST" name="validateUserLandingHomePageTest" finished-at="2024-02-28T14:39:29 PST" duration-ms="1774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserLandingHomePageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCasesPage.GetStartedTestPage@12968227]" started-at="2024-02-28T14:39:29 PST" name="tearDown" finished-at="2024-02-28T14:39:29 PST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCasesPage.GetStartedTestPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

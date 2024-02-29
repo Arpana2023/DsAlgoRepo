@@ -3,13 +3,15 @@ package TestCasesPage;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import BasePackage.TestBase;
 import PagesPackage.GetStartedPage;
 import PagesPackage.HomePage;
 import UtilPackage.Loggerload;
-
+import listenersPackage.AllureReportListener;
+@Listeners(AllureReportListener.class)
 public class GetStartedTestPage extends TestBase
 {
    GetStartedPage getStartedPage;
@@ -39,9 +41,9 @@ public class GetStartedTestPage extends TestBase
 
 	   Loggerload.info("User is clicking on GetStarted button on DsAlgo portal Page");
 	   Assert.assertEquals(HomePageTitle, "NumpyNinja");
-	   System.out.println("###########"+HomePageTitle+"############");
-	   
-	   
+	   //System.out.println("###########"+HomePageTitle+"############");
+
+
    }
    @AfterMethod
    public void tearDown()

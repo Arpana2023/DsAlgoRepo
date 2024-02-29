@@ -9,7 +9,7 @@ import BasePackage.TestBase;
 public class GetStartedPage extends TestBase
 {
    @FindBy(xpath="//a[@href='/home']") WebElement getStartedBtn;//Page objects,pagefactory or object repository
-  
+
    //Constructor
    public GetStartedPage()
    {
